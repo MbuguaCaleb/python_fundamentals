@@ -38,7 +38,8 @@ print(s.lower())
 print(s.swapcase())
 
 # Get length
-print(len(s))  # can be used in any other datatypes as well eg lists
+print(len(s))
+# can be used in any other datatypes as well eg lists
 
 # Replace
 print(s.replace('world', 'everyone'))
