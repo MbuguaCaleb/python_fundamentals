@@ -42,13 +42,19 @@ print('Apples' in fruits_set)
 # Add to set
 fruits_set.add('Grape')
 
+# Add duplicate
+# It does not throw an error but will not add a duplicate Member
+fruits_set.add('Apples')
+
 # Remove from set
 fruits_set.remove('Grape')
 
 # clear set
-fruits_set.clear()
+# removing the conents
+# fruits_set.clear()
 
 # Delete
-del fruits_set
+# removing it completely
+#del fruits_set
 
 print(fruits_set)
