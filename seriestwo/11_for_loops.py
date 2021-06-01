@@ -34,5 +34,3 @@ for price in prices:
 print(totalPrice)
 
 
- 
-
