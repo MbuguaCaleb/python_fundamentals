@@ -50,3 +50,25 @@ numbers.append(300)
 
 print(numbers)
 print(numbers2)
+
+
+##exercise
+##programme to remove duplicates in a list
+##Do not confuse methods in python with PHP
+listduplicate =[1,2,2,3,3,4,4,5,5,6,7,6,1,1]
+
+for listItem in listduplicate: 
+    if(listduplicate.count(listItem) > 0):
+        listduplicate.remove(listItem)
+    
+print(listduplicate)
+
+##solution two
+numbers=[1,2,3,3,4,4,5,6,6,5,3,1,3]
+unique=[]
+
+for number in numbers:
+    if number not in unique:
+        unique.append(number)
+
+print(unique)

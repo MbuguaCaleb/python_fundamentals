@@ -1,7 +1,7 @@
 ##Converting from One datatype to Another
 birth_year = input('Birth Year:')
 
-##Whatever we type from the terminal is always treated as a string
+##Whatever we type from the terminal when usint input is always treated as a string
 ##Even if we type a Number
 
 age= 2021 - int(birth_year)
