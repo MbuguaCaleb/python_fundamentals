@@ -37,5 +37,7 @@ class Person:
 
 caleb=Person("Caleb")
 
-print(caleb.name)
+mercy=Person("Mercy  Wanjiru")
+
 caleb.talk()
+mercy.talk()
