@@ -29,6 +29,8 @@ class Employee:
    def __str__(self):
        return '{}-{}'.format(self.full_name(),self.email)
 
+   ##remeber these methods pertain to how the object will be manipulated
+   ##other pertains to the other object being passed
    def __add__(self,other):
        return self.pay + other.pay
 
